@@ -1,16 +1,99 @@
--- Use this file to enable and configure your mods. The mod will only be available in the game
--- if you set "enabled=true"!!!
---
--- Also, during the container startup this file will be copied to both Master/ and Caves/ folders. What's setup here
--- will be available in both shards!
---
--- See the example below:
-
 return {
-  -- ["workshop-000000000"]={
-  --   configuration_options={
-  --     ["CustomModSetting"]="value"
-  --   },
-  --   enabled=true
-  -- },
+  ["workshop-1283844026"]={
+    configuration_options={
+      ancient_altar=6,
+      ancient_altar_broken=6,
+      beehive=4,
+      berrybush=4,
+      berrybush2=4,
+      berrybush_juicy=4,
+      bishop=6,
+      bishop_nightmare=6,
+      blue_mushroom=1,
+      cactus=2,
+      carrot_planted=1,
+      catcoonden=4,
+      cave_fern=1,
+      deciduoustree=1,
+      evergreen=1,
+      fireflies=2,
+      flower=1,
+      flower_cave=1,
+      flower_cave_double=1,
+      flower_cave_triple=1,
+      flower_evil=1,
+      grass=1,
+      green_mushroom=1,
+      houndmound=6,
+      knight=6,
+      knight_nightmare=6,
+      lichen=1,
+      livingtree=4,
+      mandrake_planted=6,
+      marbletree=4,
+      marsh_bush=2,
+      marsh_tree=2,
+      mermhead=2,
+      mermhouse=4,
+      monkeybarrel=6,
+      mushtree_medium=1,
+      mushtree_small=1,
+      mushtree_tall=1,
+      pighead=2,
+      pighouse=4,
+      pigtorch=2,
+      rabbithole=2,
+      rabbithouse=4,
+      red_mushroom=1,
+      reeds=2,
+      rock1=1,
+      rock2=1,
+      rock_flintless=2,
+      rock_moon=2,
+      rook=6,
+      rook_nightmare=6,
+      ruins_statue_head=4,
+      ruins_statue_head_nogem=4,
+      ruins_statue_mage=4,
+      ruins_statue_mage_nogem=4,
+      sapling=1,
+      slurtlehole=4,
+      spiderden=6,
+      stalagmite=1,
+      stalagmite_tall=1,
+      tallbirdnest=4,
+      tentacle=2,
+      twiggytree=2,
+      wasphive=6 
+    },
+    enabled=true 
+  },
+  ["workshop-1892210190"]={ configuration_options={ Language="el", TuneMode="normal" }, enabled=true },
+  ["workshop-1974725370"]={
+    configuration_options={
+      leastnum_beefalo=2,
+      leastnum_beehive=2,
+      leastnum_catcoonden=2,
+      leastnum_knight=2,
+      leastnum_lightninggoat=2,
+      leastnum_rocky=2,
+      leastnum_slurtlehole=2,
+      leastnum_spiderden=2,
+      respawnmechanism="scripts/respawnnear.lua",
+      respawntime=5 
+    },
+    enabled=true 
+  },
+  ["workshop-378160973"]={
+    configuration_options={
+      ENABLEPINGS=true,
+      FIREOPTIONS=2,
+      OVERRIDEMODE=false,
+      SHAREMINIMAPPROGRESS=true,
+      SHOWFIREICONS=true,
+      SHOWPLAYERICONS=true,
+      SHOWPLAYERSOPTIONS=2 
+    },
+    enabled=true 
+  } 
 }
