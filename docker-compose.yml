@@ -14,6 +14,7 @@ services:
       - ./volumes/mods:/home/dst/server_dst/mods
     environment:
       - SHARD_NAME=Caves
+    restart: always
 
   dst_master:
     container_name: dst_master
@@ -32,6 +33,8 @@ services:
     # Any server commands should be sent to the master shard as it manages its slaves (Caves)
     stdin_open: true
     tty: true
+
+    restart: always
 
 networks:
   dst_cluster:
