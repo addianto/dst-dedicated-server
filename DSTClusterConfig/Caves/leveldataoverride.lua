@@ -16,6 +16,7 @@ return {
     boons="default",
     branching="default",
     bunnymen="default",
+    carrot="default",
     cave_ponds="default",
     cave_spiders="default",
     cavelight="default",
@@ -35,8 +36,8 @@ return {
     monkey="default",
     mushroom="default",
     mushtree="default",
-    petrification="default",
     prefabswaps_start="default",
+    rabbits="default",
     reeds="default",
     regrowth="default",
     roads="never",
@@ -60,5 +61,5 @@ return {
   },
   required_prefabs={ "multiplayer_portal" },
   substitutes={  },
-  version=3 
+  version=4
 }
