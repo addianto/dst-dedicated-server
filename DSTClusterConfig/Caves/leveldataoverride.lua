@@ -13,7 +13,7 @@ return {
     banana="default",
     bats="default",
     berrybush="default",
-    boons="default",
+    boons="often",
     branching="default",
     bunnymen="default",
     carrot="default",
@@ -54,7 +54,7 @@ return {
     trees="default",
     weather="default",
     world_size="default",
-    wormattacks="default",
+    wormattacks="rare",
     wormhole_prefab="tentacle_pillar",
     wormlights="default",
     worms="default" 
