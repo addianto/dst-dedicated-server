@@ -7,14 +7,12 @@ services:
       - 10998:10998/udp
     networks:
       - dst_cluster
-    links:
-      - dst_master
     volumes:
       - ./DSTClusterConfig:/home/dst/.klei/DoNotStarveTogether/DSTWhalesCluster
       - ./volumes/mods:/home/dst/server_dst/mods
     environment:
       - SHARD_NAME=Caves
-    restart: always
+    restart: on-failure
 
   dst_master:
     container_name: dst_master
@@ -34,7 +32,7 @@ services:
     stdin_open: true
     tty: true
 
-    restart: always
+    restart: on-failure
 
 networks:
   dst_cluster:
