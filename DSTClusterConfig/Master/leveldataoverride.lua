@@ -74,7 +74,7 @@ return {
     specialevent="default",
     spiders="default",
     spring="default",
-    start_location="plus",
+    start_location="default",
     summer="default",
     tallbirds="default",
     task_set="default",
@@ -115,3 +115,4 @@ return {
   substitutes={  },
   version=4
 }
+
