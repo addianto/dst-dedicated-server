@@ -1,0 +1,19 @@
+[Unit]
+Description=Don't Starve Together dedicated server
+After=docker.service
+Wants=docker.service
+
+[Service]
+Type=simple
+User=$USER$
+WorkingDirectory=$PATH_TO_WORKING_DIRECTORY$
+ExecStart=docker-compose --file $PATH_TO_DOCKER_COMPOSE_YML$ \
+    up --detach
+ExecStop=$PATH_TO_WORKING_DIRECTORY$/scripts/stop.sh
+ExecStopPost=docker-compose --file $PATH_TO_DOCKER_COMPOSE_YML$ \
+    stop
+TimeoutSec=600
+
+[Install]
+WantedBy=multi-user.target
+
