@@ -54,7 +54,7 @@ return {
     trees="default",
     weather="default",
     world_size="default",
-    wormattacks="rare",
+    wormattacks="never",
     wormhole_prefab="tentacle_pillar",
     wormlights="default",
     worms="default" 
